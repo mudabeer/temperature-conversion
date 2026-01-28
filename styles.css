@@ -69,7 +69,8 @@ main {
     flex-direction: column  ;
     border: 2px solid;
     height: 22em;
-    width: 25em;
+    min-width: 22em;
+    width: 22em;
     border-radius: 10px;
     background-color: aliceblue;
 }
@@ -90,4 +91,5 @@ body {
 
 * {
     box-sizing: border-box;
+
 }
