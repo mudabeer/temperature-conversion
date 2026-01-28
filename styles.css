@@ -6,6 +6,7 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
+    min-width: 22em;
 }
 
 main {
@@ -73,6 +74,8 @@ main {
     width: 22em;
     border-radius: 10px;
     background-color: aliceblue;
+    min-width: 22em;
+    margin: 10em;
 }
 
 .boxsec:hover {
@@ -81,7 +84,7 @@ main {
 
 header h1{
     margin: 0%;
-
+    font-size: xx-large;
 }
 
 body {
@@ -93,3 +96,4 @@ body {
     box-sizing: border-box;
 
 }
+
