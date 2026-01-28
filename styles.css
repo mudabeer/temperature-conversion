@@ -75,11 +75,9 @@ background
     border-radius: 10px;
     background-color: aliceblue;
     margin: 10em;
-}
-
-.boxsec:hover {
     box-shadow: 4px 4px 20px black;
 }
+
 
 header h1{
     margin: 0%;
@@ -120,5 +118,6 @@ body {
     font-size: 15px;
     }
 }
+
 
 
