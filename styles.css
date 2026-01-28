@@ -2,11 +2,11 @@ header {
     background-color: black;
     color: white;
     margin: 0%;
+    min-width: 22em;
     height: 60px;
     display: flex;
     justify-content: center;
     align-items: center;
-    min-width: 22em;
 }
 
 main {
@@ -57,7 +57,7 @@ main {
     row-gap: 20px;
     font-size: 20px;
 }
-
+background
 .boxinput{
     height: 40px;
 }
@@ -71,10 +71,9 @@ main {
     border: 2px solid;
     height: 22em;
     min-width: 22em;
-    width: 22em;
+    width: 25em;
     border-radius: 10px;
     background-color: aliceblue;
-    min-width: 22em;
     margin: 10em;
 }
 
@@ -84,7 +83,7 @@ main {
 
 header h1{
     margin: 0%;
-    font-size: xx-large;
+font-size: xx-large;
 }
 
 body {
@@ -94,6 +93,30 @@ body {
 
 * {
     box-sizing: border-box;
-
 }
 
+@media screen and (max-width:600px){
+    .boxsec {
+    width: 15em;
+    height: 18em;
+    }
+
+    header h1{
+        font-size: xx-large;
+        
+    }
+
+    .boxhead {
+        margin-bottom: 20px;
+    }
+
+    .boxhead h2{
+        font-size: larger;
+    }
+
+    .boxmain{
+
+    row-gap: 10px;
+    font-size: 15px;
+    }
+}
